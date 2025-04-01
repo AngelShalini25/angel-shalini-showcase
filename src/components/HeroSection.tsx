@@ -19,7 +19,7 @@ const HeroSection = () => {
             Computer Science Engineer
           </h2>
           <p className="text-lg md:text-xl text-gray-600 mb-8">
-            A passionate developer with expertise in web development, programming, and a
+            A dedicated developer with strong skills in web development, programming, and a
             keen interest in computer networks and machine learning.
           </p>
           <div className="flex flex-wrap gap-4">

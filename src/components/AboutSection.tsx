@@ -33,7 +33,7 @@ const AboutSection = () => {
               </div>
               <h3 className="text-xl font-bold text-center mb-3">Learner</h3>
               <p className="text-gray-600 text-center">
-                Passionate about continuous learning with interests in computer networks and machine learning algorithms.
+                Committed to continuous learning with interests in computer networks and machine learning algorithms.
               </p>
             </CardContent>
           </Card>
@@ -55,7 +55,7 @@ const AboutSection = () => {
         
         <div className="mt-12">
           <p className="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto">
-            I am a passionate and dedicated Computer Science Engineer with a strong foundation in programming and web development.
+            I am a dedicated and motivated Computer Science Engineer with a strong foundation in programming and web development.
             Throughout my academic journey at Kongu Engineering College, I have actively participated in paper presentations and ideathons,
             showcasing innovative ideas. I enjoy solving complex problems and have completed 144+ challenges on LeetCode and 50+ on HackerRank.
             Outside of tech, I enjoy drawing and gardening, which fuel my creativity and patience.
