@@ -5,9 +5,9 @@ import { ArrowDown } from 'lucide-react';
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center bg-gradient-to-br from-white to-purple/5">
+    <section className="relative min-h-screen flex items-center bg-gradient-to-br from-purple/5 to-lightblue/10">
       <div className="absolute inset-0 z-0">
-        <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-white to-transparent"></div>
+        <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-purple/10 to-transparent"></div>
       </div>
       
       <div className="container mx-auto px-4 z-10">

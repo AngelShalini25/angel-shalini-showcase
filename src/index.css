@@ -75,21 +75,21 @@
 
 /* Background colors for sections */
 #about {
-  @apply bg-gradient-to-br from-white to-purple/5;
+  @apply bg-gradient-to-br from-purple/10 to-lightblue/5;
 }
 
 #skills {
-  @apply bg-gradient-to-br from-purple/5 to-white;
+  @apply bg-gradient-to-br from-lightblue/10 to-purple/5;
 }
 
 #projects {
-  @apply bg-gradient-to-tr from-white to-lightblue/10;
+  @apply bg-gradient-to-tr from-purple/5 to-lightblue/10;
 }
 
 #education {
-  @apply bg-gradient-to-br from-lightblue/10 to-white;
+  @apply bg-gradient-to-br from-lightblue/15 to-purple/10;
 }
 
 #contact {
-  @apply bg-gradient-to-br from-white to-purple/10;
+  @apply bg-gradient-to-br from-purple/10 to-lightblue/15;
 }

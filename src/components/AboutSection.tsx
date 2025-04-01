@@ -5,12 +5,12 @@ import { Briefcase, Code, BookOpen } from 'lucide-react';
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-16 bg-white">
+    <section id="about" className="py-16">
       <div className="container mx-auto px-4">
         <h2 className="section-heading">About Me</h2>
         
         <div className="grid md:grid-cols-3 gap-8 mt-12">
-          <Card className="shadow-md hover:shadow-lg transition-shadow">
+          <Card className="shadow-md hover:shadow-lg transition-shadow bg-gradient-to-b from-purple/5 to-transparent">
             <CardContent className="pt-6">
               <div className="flex justify-center mb-4">
                 <div className="p-3 bg-purple/10 rounded-full">
@@ -24,7 +24,7 @@ const AboutSection = () => {
             </CardContent>
           </Card>
           
-          <Card className="shadow-md hover:shadow-lg transition-shadow">
+          <Card className="shadow-md hover:shadow-lg transition-shadow bg-gradient-to-b from-purple/5 to-transparent">
             <CardContent className="pt-6">
               <div className="flex justify-center mb-4">
                 <div className="p-3 bg-purple/10 rounded-full">
@@ -38,7 +38,7 @@ const AboutSection = () => {
             </CardContent>
           </Card>
           
-          <Card className="shadow-md hover:shadow-lg transition-shadow">
+          <Card className="shadow-md hover:shadow-lg transition-shadow bg-gradient-to-b from-purple/5 to-transparent">
             <CardContent className="pt-6">
               <div className="flex justify-center mb-4">
                 <div className="p-3 bg-purple/10 rounded-full">
