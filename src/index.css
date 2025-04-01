@@ -72,3 +72,24 @@
 .timeline-dot {
   @apply absolute left-0 top-0 w-5 h-5 rounded-full bg-purple -translate-x-1/2 mt-1;
 }
+
+/* Background colors for sections */
+#about {
+  @apply bg-gradient-to-br from-white to-purple/5;
+}
+
+#skills {
+  @apply bg-gradient-to-br from-purple/5 to-white;
+}
+
+#projects {
+  @apply bg-gradient-to-tr from-white to-lightblue/10;
+}
+
+#education {
+  @apply bg-gradient-to-br from-lightblue/10 to-white;
+}
+
+#contact {
+  @apply bg-gradient-to-br from-white to-purple/10;
+}
