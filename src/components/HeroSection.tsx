@@ -5,9 +5,18 @@ import { ArrowDown } from 'lucide-react';
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center bg-gradient-to-br from-purple/5 to-lightblue/10">
+    <section className="relative min-h-screen flex items-center overflow-hidden">
+      {/* Background elements */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-purple/10 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-purple/10 to-lightblue/15"></div>
+        
+        {/* Animated background elements */}
+        <div className="absolute top-20 left-20 w-64 h-64 bg-purple/10 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-10 right-20 w-96 h-96 bg-lightblue/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/2 left-1/3 w-48 h-48 bg-lightblue/5 rounded-full blur-2xl"></div>
+        
+        {/* Bottom gradient */}
+        <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-purple/15 to-transparent"></div>
       </div>
       
       <div className="container mx-auto px-4 z-10">
@@ -33,7 +42,7 @@ const HeroSection = () => {
         </div>
       </div>
       
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-center">
+      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-center z-10">
         <a href="#about" className="animate-bounce inline-block">
           <ArrowDown className="text-gray-600 w-6 h-6" />
         </a>

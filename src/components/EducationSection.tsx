@@ -3,11 +3,11 @@ import React from 'react';
 
 const EducationSection = () => {
   return (
-    <section id="education" className="py-16 bg-gray-50">
+    <section id="education" className="py-16">
       <div className="container mx-auto px-4">
         <h2 className="section-heading">Education & Experience</h2>
         
-        <div className="mt-12 max-w-3xl mx-auto">
+        <div className="mt-12 max-w-3xl mx-auto bg-white/30 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-white/20">
           <div className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="ml-8">

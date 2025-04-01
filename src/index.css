@@ -1,4 +1,5 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 @tailwind base;
@@ -46,6 +47,12 @@
 
   body {
     @apply bg-background text-foreground font-sans;
+    background-image: radial-gradient(circle at top left, rgba(139, 92, 246, 0.05), transparent 30%),
+                      radial-gradient(circle at top right, rgba(99, 179, 237, 0.05), transparent 30%),
+                      radial-gradient(circle at bottom left, rgba(99, 179, 237, 0.08), transparent 40%),
+                      radial-gradient(circle at bottom right, rgba(139, 92, 246, 0.05), transparent 30%);
+    background-size: 100% 100%;
+    background-attachment: fixed;
   }
 }
 
@@ -75,21 +82,32 @@
 
 /* Background colors for sections */
 #about {
-  @apply bg-gradient-to-br from-purple/10 to-lightblue/5;
+  @apply bg-gradient-to-br from-purple/15 to-lightblue/10;
+  background-image: radial-gradient(circle at top right, rgba(139, 92, 246, 0.2), transparent 40%),
+                    radial-gradient(circle at bottom left, rgba(99, 179, 237, 0.15), transparent 35%);
 }
 
 #skills {
-  @apply bg-gradient-to-br from-lightblue/10 to-purple/5;
+  @apply bg-gradient-to-br from-lightblue/15 to-purple/10;
+  background-image: radial-gradient(circle at top left, rgba(99, 179, 237, 0.2), transparent 30%),
+                    radial-gradient(circle at bottom right, rgba(139, 92, 246, 0.15), transparent 40%);
 }
 
 #projects {
-  @apply bg-gradient-to-tr from-purple/5 to-lightblue/10;
+  @apply bg-gradient-to-tr from-purple/10 to-lightblue/15;
+  background-image: radial-gradient(circle at center, rgba(139, 92, 246, 0.1), transparent 50%),
+                    radial-gradient(circle at bottom left, rgba(99, 179, 237, 0.15), transparent 30%);
 }
 
 #education {
-  @apply bg-gradient-to-br from-lightblue/15 to-purple/10;
+  @apply bg-gradient-to-br from-lightblue/20 to-purple/15;
+  background-image: radial-gradient(circle at top right, rgba(99, 179, 237, 0.25), transparent 35%),
+                    radial-gradient(circle at bottom left, rgba(139, 92, 246, 0.15), transparent 40%);
 }
 
 #contact {
-  @apply bg-gradient-to-br from-purple/10 to-lightblue/15;
+  @apply bg-gradient-to-br from-purple/15 to-lightblue/20;
+  background-image: radial-gradient(circle at center right, rgba(139, 92, 246, 0.2), transparent 40%),
+                    radial-gradient(circle at bottom left, rgba(99, 179, 237, 0.15), transparent 35%);
 }
+

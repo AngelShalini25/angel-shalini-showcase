@@ -10,10 +10,10 @@ const AboutSection = () => {
         <h2 className="section-heading">About Me</h2>
         
         <div className="grid md:grid-cols-3 gap-8 mt-12">
-          <Card className="shadow-md hover:shadow-lg transition-shadow bg-gradient-to-b from-purple/5 to-transparent">
+          <Card className="shadow-md hover:shadow-lg transition-shadow bg-gradient-to-br from-white/70 to-purple/10 backdrop-blur-sm border border-white/20">
             <CardContent className="pt-6">
               <div className="flex justify-center mb-4">
-                <div className="p-3 bg-purple/10 rounded-full">
+                <div className="p-3 bg-purple/20 rounded-full">
                   <Code className="h-8 w-8 text-purple" />
                 </div>
               </div>
@@ -24,11 +24,11 @@ const AboutSection = () => {
             </CardContent>
           </Card>
           
-          <Card className="shadow-md hover:shadow-lg transition-shadow bg-gradient-to-b from-purple/5 to-transparent">
+          <Card className="shadow-md hover:shadow-lg transition-shadow bg-gradient-to-br from-white/70 to-lightblue/10 backdrop-blur-sm border border-white/20">
             <CardContent className="pt-6">
               <div className="flex justify-center mb-4">
-                <div className="p-3 bg-purple/10 rounded-full">
-                  <BookOpen className="h-8 w-8 text-purple" />
+                <div className="p-3 bg-lightblue/20 rounded-full">
+                  <BookOpen className="h-8 w-8 text-lightblue" />
                 </div>
               </div>
               <h3 className="text-xl font-bold text-center mb-3">Learner</h3>
@@ -38,10 +38,10 @@ const AboutSection = () => {
             </CardContent>
           </Card>
           
-          <Card className="shadow-md hover:shadow-lg transition-shadow bg-gradient-to-b from-purple/5 to-transparent">
+          <Card className="shadow-md hover:shadow-lg transition-shadow bg-gradient-to-br from-white/70 to-purple/10 backdrop-blur-sm border border-white/20">
             <CardContent className="pt-6">
               <div className="flex justify-center mb-4">
-                <div className="p-3 bg-purple/10 rounded-full">
+                <div className="p-3 bg-purple/20 rounded-full">
                   <Briefcase className="h-8 w-8 text-purple" />
                 </div>
               </div>
